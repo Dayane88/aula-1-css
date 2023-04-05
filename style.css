@@ -1,4 +1,47 @@
+/* O * representa tudo que não foi editado */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
     color: green;
     padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-page {
+    color: red;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class */
+.my-content {
+color: orange;
+background-color: blueviolet;
+padding: 20px;    
+}
+
+.background-default {
+    background-color: blue;
+}
+
+.background-default2 {
+    background-color: aqua;
+}
+/* Colors */
+.hexa {
+    background-color: yellow;
+    color: blue;
+    padding: 30px;
+}
+
+.rgb {
+    background-color: rgb(0, 255, 98);
+    color: black;
+}
+
+.color-name {
+    background-color: rgb(255, 0, 166);
+    color: rgb(255, 255, 255);
 }
